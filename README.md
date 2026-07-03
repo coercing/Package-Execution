@@ -1,4 +1,4 @@
-# Microsoft Store Bypass
+# Microsoft Store Package Execution POC
 
 This repository contains a proof-of-concept Windows dropper that copies a supplied executable to a seemingly benign system path and then launches it through PowerShell by abusing the Microsoft Store package-execution path exposed by `Invoke-CommandInDesktopPackage`.
 
